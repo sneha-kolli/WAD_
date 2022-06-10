@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS_Lists</title>
+	<style type="text/css">
+		ol{
+			background-color:#11d174;
+			color: black;
+			padding: 20px;
+		}
+		ol li{
+			background-color: red;
+		}
+		ul{
+			background-color: blue;
+			color: black;
+			padding: 20px;
+		}
+		ul li{
+			background-color: lightblue;
+			margin: 12px;
+			
+		}
+		ul.c{
+			list-style-type: square;
+			background-color: orangered;
+			color: brown;
+			padding: 15px;
+		}
+		ul.c li{
+			background-color: pink;
+			margin: 12px;
+		}
+		ol.a {
+			list-style-type: upper-roman;
+			background-color: cornflowerblue;
+		}
+		ol.a li{
+			background-color: deeppink;
+		}
+		ul.b {
+			list-style-position: outside;
+			background-color: violet;
+		}
+		ul.e{
+			list-style-position:inside;
+			background-color: teal;
+		}
+		/*ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}*/
+	</style>
+</head>
+<body>
+	<h1><u>Ordered List</h1></u>
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk Shake</li>
+		<li>Green Tea</li>
+		<li>Cold Coffee</li>
+		<li>Frapps</li>
+	</ol>
+	<h1><u>Unordered List</u></h1>
+	<ul>
+		<li>DM</li>
+		<li>DSP</li>
+		<li>OS</li>
+		<li>ENG</li>
+		<li>DBMS</li>
+	</ul>
+	<h1><u>squared buttons</u></h1>
+	<ul class="c">
+		<li>DM</li>
+		<li>DSP</li>
+		<li>OS</li>
+		<li>ENG</li>
+		<li>DBMS</li>
+	</ul>
+	<h1><u>Roman buttons</u></h1>
+	<ol class="a">
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk Shake</li>
+		<li>Green Tea</li>
+		<li>Cold Coffee</li>
+		<li>Frapps</li>
+	</ol>
+	<h1><u>Unordered List with Position outside</u></h1>
+	<ul class="b">
+		<li>DM</li>
+		<li>DSP</li>
+		<li>OS</li>
+		<li>ENG</li>
+		<li>DBMS</li>
+	</ul>
+	<h1><u>Unordered List with Position inside</u></h1>
+	<ul class="e">
+		<li>DM</li>
+		<li>DSP</li>
+		<li>OS</li>
+		<li>ENG</li>
+		<li>DBMS</li>
+	</ul>
+
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Pseudo Elements</title>
+	<style type="text/css">
+		*{
+			font-size: 50px;
+		}
+		p::first-line{
+			color: mediumaquamarine;
+			font-variant: small-caps;
+			background-color: yellow;
+			word-spacing: 9px;
+			letter-spacing: 5px;
+			text-decoration:underline;
+		}
+		p::first-letter{
+			color: red;
+			background-color:lavender;
+
+		}
+		h1::before{
+			content:url(smiley.gif);
+		}
+		h1::after{
+			content:url(smiley.gif);
+		}
+		::marker{
+			color: deeppink;
+			font-size: 40px;
+		}
+	
+	</style>
+</head>
+<body>
+	<h1>MUSIC Ist paragraph</h1>
+	<p>Music is a pleasant sound which is a combination of melodies and harmony and which soothes you. Music may also refer to the art of composing such pleasant sounds with the help of the various musical instruments. A person who knows music is a Musician. The music consists of Sargam, Ragas, Taals, etc.</p>
+	<h2>MUSIC IInd Paragraph</h2>
+
+	<p>The music consists of Sargam, Ragas, Taals, etc. Music is not only what is composed of men but also which exists in nature. Have you ever heard the sound of a waterfall or a flowing river? Could you hear music there? Thus, everything in harmony has music. Here, I would like to quote a line by Wolfgang Amadeus Mozart, one of the greatest musicians, “The music is not in the notes, but in the silence between.”</p>
+	<h1><u>Ordered List</h1></u>
+	<ol>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk Shake</li>
+		<li>Green Tea</li>
+		<li>Cold Coffee</li>
+		<li>Frapps</li>
+	</ol>
+	<h1><u>UnOrdered List</h1></u>
+	<ul>
+		<li>Coffee</li>
+		<li>Tea</li>
+		<li>Milk Shake</li>
+		<li>Green Tea</li>
+		<li>Cold Coffee</li>
+		<li>Frapps</li>
+	</ul>
+	<h1>Selection Pseudo Elements</h1>
+	<p id="A">Music is a pleasant sound which is a combination of melodies and harmony and which soothes you. Music may also refer to the art of composing such pleasant sounds with the help of the various musical instruments. A person who knows music is a Musician. The music consists of Sargam, Ragas, Taals, etc.</p>
+	
+
+	
+
+</body>
+</html>

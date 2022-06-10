@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS_LINKS</title>
+	<style type="text/css">
+		body{
+			margin: 210px;
+
+		}
+		#link-B{
+			color: green;
+			text-decoration:none;
+
+		}
+		#link-B:hover{
+			text-decoration: underline;
+			color: blue;
+
+
+		}
+		#link-C{
+			border-style: solid;
+			border-color: red;
+			padding: 4px;
+			margin-top: 6px;
+			text-decoration: none;
+		}
+		#link-C:hover{
+			background-color: yellow;
+			text-decoration: underline;
+		}
+		#link-D{
+			border-color:yellow;
+			border-style: solid;
+			background: yellow;
+			text-decoration: none;
+
+		}
+		#link-E{
+			border-color:mediumaquamarine;
+			border-style: dotted;
+			background-color:orange;
+		}
+		#link-E: visited{
+			color:orange;
+		}
+		#link-F{
+			border-style: dashed;
+			background-color:darkturquoise;
+			border-color: blue;
+		}
+		#link-F:active{
+			color: green;
+		}
+		#link-D:hover{
+			background-color: red;
+			text-decoration: underline;
+		}
+	</style>
+	<script type="text/javascript">
+	 var arr = document.links;
+	 for(i=0 ; i<arr.length;i++){
+		 alert(arr[i]);
+	 }
+	  
+
+	</script>
+</head>
+<body align='center'>
+	&nbsp;
+	&nbsp;
+	<a href="#" id="link-A">LINK-A</a>  &nbsp;
+	<a href="#" id="link-B">LINK-B</a> &nbsp;
+	<a href="#" id="link-C">LINK-C</a> &nbsp;
+	<a href="#" id="link-D">LINK-D</a> &nbsp;
+	<a href="#" id="link-E">LINK-E</a>&nbsp;
+	<a href="#" id="link-F">LINK-F</a>&nbsp;
+
+	<input type="button" name="Get Links" value="Get Links" onClicks='getLinks()'>
+
+
+</body>
+</html>
