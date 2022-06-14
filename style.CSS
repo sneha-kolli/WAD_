@@ -1,0 +1,28 @@
+h1
+{
+	color: red;
+	vertical-align: middle;
+	text-decoration:blink;
+	letter-spacing: 8px;
+}
+
+h2
+{
+	color: green;
+	text-indent:30px;
+	direction: rtl;
+
+}
+h3
+{
+	color: blue;
+	text-align: center;
+	text-transform:uppercase;
+	word-spacing: 4px;
+
+}
+
+body
+{
+	color: black;
+}

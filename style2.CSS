@@ -1,0 +1,35 @@
+h1
+{
+	font-size: 30px;
+	color: red;
+	text-align:center;
+	letter-spacing: 6px;
+	font-variant: inherit;
+	
+}
+h3
+{
+	font: cursive;
+	font-size: 30px;
+	color: black;
+	letter-spacing: 3px;
+	text-decoration-color: black;
+
+}
+h5
+{
+	font-size: 20px;
+	color: darkgreen;
+	letter-spacing: 2px;
+	text-decoration-color:pink ;
+	
+}
+h4
+{
+	
+	font-size: 20px;
+	color: darkgreen;
+	letter-spacing: 2px;
+	text-decoration-color:cornflowerblue ;
+	
+}
